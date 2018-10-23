@@ -10,9 +10,9 @@ namespace DateCalculator
     {
         static void Main(string[] args)
         {
+            DateCalculator dateCalculator = new DateCalculator();
             while (true)
             {
-                DateCalculator dateCalculator = new DateCalculator();
                 Console.WriteLine("Enter two dates separated by a space (e.g. dd/mm/yyyy dd/mm/yyyy) or just hit enter to stop:");
                 string dates = Console.ReadLine();
                 string[] splitDates = dates.Split(' ');
